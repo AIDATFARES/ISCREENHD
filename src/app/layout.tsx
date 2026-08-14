@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "iscreenhd IPTV",
     images: [
       {
-        url: "/iptv-hero-opt.webp",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "iscreenhd Premium IPTV Service",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "iscreenhd IPTV - Premium 4K Streaming",
     description: "Ultimate 4K IPTV Experience. Access 20,000+ premium live channels.",
-    images: ["/iptv-hero-opt.webp"],
+    images: ["/og-image.png"],
   },
 };
 
