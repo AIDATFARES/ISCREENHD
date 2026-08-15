@@ -47,7 +47,7 @@ export default function HeroSection() {
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4 w-full max-w-[600px] pt-3 animate-fade-up [animation-delay:400ms] opacity-0">
               <a
-                href="https://wa.me/213554246175?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20iscreenhd%20IPTV."
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20iscreenhd%20IPTV."
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Get free trial"

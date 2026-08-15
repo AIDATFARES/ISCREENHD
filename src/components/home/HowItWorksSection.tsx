@@ -124,7 +124,7 @@ export default function HowItWorksSection() {
             <Link className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-4 py-3.5 text-xs font-extrabold uppercase tracking-wide text-white shadow-[0_0_20px_rgba(124,58,237,0.35)] transition-transform hover:-translate-y-0.5" href="#pricing">
               <Trophy className="h-4 w-4" /> Get started now
             </Link>
-            <a className="inline-flex items-center justify-center gap-2 rounded-xl border border-emerald-400/55 px-4 py-3.5 text-xs font-extrabold uppercase tracking-wide text-emerald-400 transition-colors hover:bg-emerald-400/10" href="https://wa.me/213554246175?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20iscreenhd%20IPTV." rel="noreferrer" target="_blank">
+            <a className="inline-flex items-center justify-center gap-2 rounded-xl border border-emerald-400/55 px-4 py-3.5 text-xs font-extrabold uppercase tracking-wide text-emerald-400 transition-colors hover:bg-emerald-400/10" href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20iscreenhd%20IPTV." rel="noreferrer" target="_blank">
               <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
             </a>
           </div>

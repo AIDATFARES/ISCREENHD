@@ -40,7 +40,7 @@ export default function SupportCtaSection() {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.96 }}
             className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-4 py-2.5 text-[10px] font-extrabold uppercase tracking-wide text-white shadow-[0_0_20px_rgba(16,185,129,0.25)] transition-colors hover:bg-emerald-400"
-            href="https://wa.me/213554246175?text=Hello%2C%20I%20have%20a%20question%20about%20iscreenhd%20IPTV."
+            href="https://wa.me/213552069874?text=Hello%2C%20I%20have%20a%20question%20about%20iscreenhd%20IPTV."
             rel="noreferrer"
             target="_blank"
           >

@@ -164,7 +164,7 @@ export default function FAQ() {
     const subject = String(formData.get("subject") || "General support").trim();
     const message = String(formData.get("message") || "").trim();
     const text = encodeURIComponent(`Hello iscreenhd IPTV support,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`);
-    window.open(`https://wa.me/213554246175?text=${text}`, "_blank", "noopener,noreferrer");
+    window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
 
   return (
@@ -251,7 +251,7 @@ export default function FAQ() {
                 <span className="mt-2 block text-xs leading-5 text-on-surface-variant">For general inquiries and support.</span>
                 <span className="mt-3 block text-xs font-semibold text-primary">support@iscreenhd.com</span>
               </a>
-              <a className="glass-panel flex min-h-40 flex-col items-center justify-center rounded-xl p-5 text-center transition-colors hover:border-tertiary/50" href="https://wa.me/213554246175?text=Hello%20iscreenhd%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
+              <a className="glass-panel flex min-h-40 flex-col items-center justify-center rounded-xl p-5 text-center transition-colors hover:border-tertiary/50" href="https://wa.me/213552069874?text=Hello%20iscreenhd%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-tertiary-container/20 text-tertiary"><MessageCircle className="h-5 w-5" /></span>
                 <span className="mt-4 block text-base font-bold text-white">WhatsApp Support</span>
                 <span className="mt-2 block text-xs leading-5 text-on-surface-variant">Fastest way to reach us for technical issues.</span>

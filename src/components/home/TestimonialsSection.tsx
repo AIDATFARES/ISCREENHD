@@ -46,7 +46,7 @@ export default function TestimonialsSection() {
         </motion.div>
       </div>
 
-      <div className="mt-12 text-center"><a href="https://wa.me/213554246175?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20iscreenhd%20IPTV." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-500 to-violet-600 px-7 py-4 text-sm font-extrabold text-white shadow-[0_0_28px_rgba(124,58,237,0.42)] transition-transform hover:-translate-y-0.5"><Trophy className="h-4 w-4" /> Get Your Free Trial</a>
+      <div className="mt-12 text-center"><a href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20iscreenhd%20IPTV." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-500 to-violet-600 px-7 py-4 text-sm font-extrabold text-white shadow-[0_0_28px_rgba(124,58,237,0.42)] transition-transform hover:-translate-y-0.5"><Trophy className="h-4 w-4" /> Get Your Free Trial</a>
         <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-2 text-[10px] text-slate-500"><span className="flex items-center gap-1.5"><Headphones className="h-3 w-3 text-violet-300" /> Instant WhatsApp delivery</span><span className="flex items-center gap-1.5"><Tv className="h-3 w-3 text-violet-300" /> Works on all devices</span><span className="flex items-center gap-1.5"><ShieldCheck className="h-3 w-3 text-violet-300" /> 99.9% uptime guaranteed</span></div>
       </div>
     </div>
