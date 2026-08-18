@@ -57,14 +57,19 @@ export default function HeroSection() {
                 <span>Get Free Trial</span>
               </a>
               <div className="flex-1 transition-transform duration-300 hover:scale-[1.03] hover:-translate-y-1 active:scale-95">
-                <Link
+                <a
                   href="#pricing"
                   aria-label="View plans"
                   className="w-full py-5 px-8 rounded-full text-base sm:text-lg font-semibold text-white bg-[#111827]/90 hover:bg-[#1f2937] glass-panel border border-white/15 hover:border-white/30 transition-all duration-300 flex items-center justify-center tracking-wide gap-2.5 shadow-lg"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+                    window.history.pushState(null, '', '#pricing');
+                  }}
                 >
                   <List className="h-5 w-5 text-cyan-400" />
                   <span>View Plans</span>
-                </Link>
+                </a>
               </div>
             </div>
 
