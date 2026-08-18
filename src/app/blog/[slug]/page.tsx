@@ -100,10 +100,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               th: ({node, ...props}) => <th className="border-b border-outline-variant py-3 px-4 font-semibold text-on-surface bg-surface-container" {...props} />,
               td: ({node, ...props}) => <td className="border-b border-outline-variant/30 py-3 px-4" {...props} />,
               img: ({node, alt, src, ...props}) => (
-                <div className="my-8 flex flex-col items-center">
+                <span className="my-8 flex flex-col items-center">
                   <img src={src} alt={alt} className="rounded-xl shadow-lg max-w-full" {...props} />
                   {alt && <span className="text-sm text-center block mt-2 opacity-70">{alt}</span>}
-                </div>
+                </span>
               ),
             }}
           >
