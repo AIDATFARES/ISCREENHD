@@ -10,7 +10,7 @@ export default function BlogOfferCard() {
       <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-[#FF5528]/10 blur-3xl"></div>
       
       <div className="relative z-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-3 py-1 mb-4">
             <ShieldCheck className="h-4 w-4 text-blue-400" />
             <span className="text-xs font-bold uppercase tracking-wide text-blue-400">Premium IPTV Experience</span>
@@ -21,9 +21,9 @@ export default function BlogOfferCard() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#00dce5]">iScreenHD IPTV</span>
           </h3>
           
-          <p className="text-sm text-slate-300 leading-relaxed max-w-lg mb-6">
+          <div className="text-sm text-slate-300 leading-relaxed mb-6 pr-4">
             Stop dealing with buffering and hidden fees. Get access to 50,000+ live channels, 120,000+ VODs, and exclusive 4K sports with instant setup on all devices.
-          </p>
+          </div>
 
           <div className="flex flex-wrap gap-4">
             <div className="flex items-center gap-2 text-xs font-semibold text-slate-300">
