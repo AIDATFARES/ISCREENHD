@@ -4,6 +4,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ArrowLeft } from "lucide-react";
+import BlogOfferCard from "@/components/blog/BlogOfferCard";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -91,7 +92,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             components={{
               h2: ({node, ...props}) => <h2 className="text-2xl font-bold mt-12 mb-6 text-on-surface" {...props} />,
               h3: ({node, ...props}) => <h3 className="text-xl font-semibold mt-8 mb-4 text-on-surface" {...props} />,
-              p: ({node, ...props}) => <p className="mb-6 leading-relaxed" {...props} />,
+              p: ({node, children, ...props}) => {
+                const textContent = Array.isArray(children) ? children.join('') : children;
+                if (typeof textContent === 'string' && textContent.includes('[[OFFER_CARD]]')) {
+                  return <BlogOfferCard />;
+                }
+                return <p className="mb-6 leading-relaxed" {...props}>{children}</p>;
+              },
               ul: ({node, ...props}) => <ul className="list-disc pl-6 mb-6 space-y-2" {...props} />,
               ol: ({node, ...props}) => <ol className="list-decimal pl-6 mb-6 space-y-2" {...props} />,
               a: ({node, ...props}) => <a className="text-primary hover:underline" {...props} />,
